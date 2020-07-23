@@ -1,0 +1,223 @@
+/*Fonts Family*/
+/*Colors*/
+/*Basic settings*/
+html {
+  /* overflow-x: hidden; */
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #000000;
+  margin: 0;
+}
+
+.header{
+  margin: 0 auto;
+  min-height: 60px;
+  min-width: 768px;
+  max-width: 1200px;
+  background-color: #000000;
+
+}
+.header__container{
+  display: flex;
+  max-width: 1100px;
+
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.container-left-block,
+.container-right-block {
+  display: flex;
+  max-height: 60px;
+  text-align: right;
+}
+.container-left-block a,
+.container-right-block a{
+  text-decoration: none;
+  color: #ffffff;
+}
+.container-left-block__logo,
+.container-right-block__logo{
+  margin: 0;
+  font-size: 36px;
+  margin-top: -2px;
+}
+.container-left-block span,
+.container-right-block span{
+  color: #ff1d25;
+  font-size: 12px;
+  text-transform: uppercase;
+  position: relative;
+  bottom: 9px;
+  font-weight: 700;
+}
+.vertical-line{
+  display: block;
+  width: 2px;
+  height: 40px;
+  background-color: #424242;
+  margin-top: 10px;
+  margin-left: 17px;
+ 
+}
+.container-left-block__title
+{
+  font-size: 14px;
+  line-height: 14.8px;
+  color: #5d5d5d;
+  width: 40px;
+  text-align: left;
+  margin-left: 19px;
+  font-weight: 500;
+}
+.container-right-block{
+  text-align: left;
+  width: auto;
+  font-family: 'Heebo', sans-serif;
+  font-size: 18px;
+}
+.container-right-block__title{
+  font-size: 18px;
+  line-height: 14.8px;
+  color: #5d5d5d;
+  width: 70px;
+  text-align: right;
+  font-weight: 400;
+ margin-top: 12px;
+ }
+.container-right-block__logo{
+font-size: 42px;
+font-weight: 100;
+margin-top: -8px;
+margin-left: 10px;
+margin-right: -3px;
+
+}
+.container-right-block span{
+  font-size: 18px;
+  margin-left: 20px;
+  bottom: 22px;
+  
+}
+.main{
+  margin: 0 auto;
+  min-width: 768px;
+  max-width: 1200px;
+  min-height: 768px;
+  background-color: #cccccc;
+}
+.main-header{
+  display: flex;
+  padding-top: 20px;
+  justify-content: flex-end;
+  margin-right: 50px;
+}
+.main-header__logo{
+  width: 65px;
+  height: 65px;
+  background-color: #0071bc;
+  border-radius: 1px;
+  text-align: center;
+  margin-top: 30px;
+}
+.main-header__logo span{
+  display: block;
+  color: #ffffff;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 900;
+  font-size: 21px;
+  line-height: 18.8px;
+  margin-top: 17px;
+}
+.main-header__title h2{
+  font-family: 'Heebo', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  margin-right: 10px;
+  text-align: right;
+  margin-bottom: 0;
+}
+.main-header__title p{
+  font-family: 'Heebo', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: right;
+  margin-top: -5px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+.main-header__title span{
+  font-family: 'Heebo', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: right;
+  margin-right: 10px;
+}
+.main-content{
+  display: flex;
+  
+  margin: 0 auto;
+  min-width: 768px;
+  max-width: 1100px;
+  min-height: 465px;
+  margin-top: 12px;
+  }
+.main-content__left-block{
+  max-width: 330px;
+  
+  background-color: #ffffff;
+  flex-grow: 1;
+}
+.main-content__rigth-block{
+  max-width: 770px;
+ background-color: #000000;
+  flex-grow: 1;
+}
+.right-block__content{
+min-height: 435px;
+}
+.right-block__footer{
+  width: 100%;
+  height: 30px;
+  background-color: #3fa9f5;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: 18px;
+  color: #ffffff;
+}
+.main-footer{
+  max-width: 1100px;
+  justify-content: space-between;
+  
+  display: flex;
+ margin: 0 auto;
+}
+.main-footer ul{
+  list-style: none;
+  margin: 0;
+  margin-top: 20px;
+  display: flex;
+  padding: 0;
+}
+.main-footer__social-list{
+  min-width: 325px;
+  justify-content:space-around;
+  
+}
+.main-footer__social-list li:last-child{
+  margin-top: 3px;
+}
+.main-footer__items-list{
+
+  min-width: 90px;
+  justify-content:space-between
+}
+.main-footer__items-list li:last-child{
+  margin-top: -5px;
+  margin-right: 3px;
+}
